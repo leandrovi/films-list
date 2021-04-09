@@ -1,10 +1,6 @@
 import { Button } from "./Button";
 
-interface Genre {
-  id: number;
-  name: "action" | "comedy" | "documentary" | "drama" | "horror" | "family";
-  title: string;
-}
+import { Genre } from "../interfaces";
 
 interface SideBarProps {
   genres: Genre[];
